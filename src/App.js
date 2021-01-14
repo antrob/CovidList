@@ -22,7 +22,7 @@ function App() {
         </a>
       </header>
 
-      <SelectConcelho concelhos={[]} />
+      <SelectConcelho />
       <RiscoInfo nivelRisco="Moderado" casos="199" />
     </div>
   );
