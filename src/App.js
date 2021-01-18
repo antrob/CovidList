@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import RiscoInfo from './RiscoInfo'
-import SelectConcelho from './SelectConcelho'
+import ConcelhoInfo from './ConcelhoInfo'
 
 function App() {
   return (
@@ -22,8 +21,8 @@ function App() {
         </a>
       </header>
 
-      <SelectConcelho />
-      <RiscoInfo nivelRisco="Moderado" casos="199" />
+      <ConcelhoInfo />
+      
     </div>
   );
 }
